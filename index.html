@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>Vinarija Radulovic</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.27/css/uikit.min.css" />
+<!-- jQuery is required -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.27/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.27/js/uikit-icons.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link rel="stylesheet"  href="assets/css/style.css">
+</head>
+	<body>
+		<header class="uk-container uk-container-center">
+			<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+			    <div class="uk-navbar-right">
+			        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href=""></a>
+			    </div>
+			</nav>
+			<div class="ml-hero uk-text-center">
+				<div class="">
+					<img class="uk-align-center" src="assets/img/logo.svg" alt="vinarija radulovic">
+					<p>-OSNOVANO 2007-</p>
+				</div>
+				<blockquote>
+					<q>...vino je dokaz da nas Bog voli,<br> i da voli da nas vidi srecne.</q>
+					<cite> Benjamin Franklin</cite>
+				</blockquote>
+			</div>	
+		</header>
+			<section class="ml-about uk-container uk-container-center">
+			<img id="ml-middle-logo" src="assets/img/barell.png" alt="">
+				<div class="uk-margin-large-top uk-grid-collapse" uk-grid>
+					<article class="uk-width-1-2@s uk-padding-large">
+					<h2 class="uk-margin-medium-bottom">O Nama</h2>
+						<p>Vinarija '' Radulović'' je izgrađena u samom srcu vinograda koji se prostiru na površini od 6 ha gde se sa velikom pažnjom i ljubavlju, uz pomoć i preporuke stručnih lica, kao i primenom ekoloških preparata uzgajaju dve vrhunske sorte grožđa: Cabernet Sauvignon, asortiment namenjen proizvodnji crnog vina i Chardonnay, asortiment namenjen za proizvodnju belog vina.</p> 
+						<p>
+						Deo objekta vinarije '' Radulović '' koristi se za degustacije vina, održavanje stručnih seminara i skupova.
+						U samom centru sela Crnomasnica nalazi se podrum, uređen po svetskim standardima i opremljen vrhunskom opremom, za preradu grožđa, proizvodnju i skladištenje vina kapaciteta 200.000 litara. 
+						Posetiocima se nudi i obilazak podruma. 
+						</p>
+					</article>
+					<article class="uk-width-1-2@s uk-padding-large">
+						<img src="assets/img/vinra4-mala.jpg" alt="">
+					</article>
+				</div>
+			</section>
+			<section class="ml-section-2 uk-container uk-container-center">
+				<div class="uk-grid-collapse" uk-grid>
+					<article class="uk-width-1-2@s uk-padding-small">
+						<img src="assets/img/vinrad3.jpg" alt="">
+					</article>
+					<article class="2 uk-width-1-2@s uk-padding-large">
+					<h2 class="uk-margin-medium-bottom">O Nama</h2>
+						<p>Vinraija Radulovic proizvodi visoko kvalitetna vina. Od vinograda, do proizvodnje pa
+						sve do konzumacije, fokusiramo se na nove i inovativne metode,
+						kako bi proizveli sto kvalitetnije vino. Trenutno mozemo da vam ponudimo dva vrsta vina Cabernet Sauvignon i Chardonnay. U Vinariji Radulovic moze te da  degustirate vina uz dobru hranu u samom vinogradu.</p> 
+						<p>Za rezervacije molimo vas da saljite na e-mail adresu </p>
+					</article>
+				</div>
+			</section>
+			<section class="ml-section-3 uk-container uk-container-center">
+				<div class="uk-margin-large-top uk-grid-collapse" uk-grid>
+					<article class="uk-width-1-2@s uk-padding-large">
+					<h2 class="uk-margin-medium-bottom">O Nama</h2>
+						<p>Vinraija Radulovic je mala vinarija koja proizvodi visoko kvalitetna vina. Trenutno mozemo da vam ponudimo dva vrsta vina Cabernet Sauvignon i Chardonnay. U Vinariji Radulovic moze te da  degustirate vina uz dobru hranu u samom vinogradu.</p> 
+						<p>Za rezervacije molimo vas da saljite na e-mail adresu </p>
+					</article>
+					<article class="uk-width-1-2@s uk-padding-large">
+						<div id="map"></div>
+					</article>
+				</div>
+			</section>
+		<footer class="uk-text-center">
+			<p>&copy Mladen Ignjatovic</p>
+		</footer>
+		<script>
+		      function initMap() {
+		        var uluru = {lat: 44.0649877, lng: 22.5493058};
+		        var map = new google.maps.Map(document.getElementById('map'), {
+		          scrollwheel: false,
+		          zoom: 12,
+		          center: uluru
+		        });
+		        // var image = 'assets/img/icon.png';
+		        var marker = new google.maps.Marker({
+		          position: uluru,
+		          map: map
+		          // icon: image
+		        });
+		      }
+		        </script>
+		        <script async defer
+		          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWYPAJcEXItYcNCTgP1PVVaxNEjQQ0oxM&callback=initMap">
+		        </script>
+	</body>
+</html>
