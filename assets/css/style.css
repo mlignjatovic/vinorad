@@ -51,6 +51,11 @@ header div.ml-hero blockquote {
 .ml-section-3 article h2{
 	color: #eee;
 }
+.ml-section-2 article h2,
+.ml-about article h2 {
+	font-family: 'Tangerine', cursive;
+	font-size: 3em;
+}
 .ml-about article img {
 	margin-top: 15px;
 }
@@ -70,6 +75,9 @@ header div.ml-hero blockquote {
 	background: linear-gradient(to bottom, rgba(26,91,36, 0.5),rgba(26,91,36, 0.4)), url('../img/vinrad4.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.ml-section-3 article span {
+	margin-right: 8px;
 }
 footer {
 	background: #111;
