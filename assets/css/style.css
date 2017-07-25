@@ -15,7 +15,7 @@ header {
 
 header .ml-hero {
 	margin-top: 9%;
-	font-size: 18px;
+	font-size: 1.5em;
 	color: #000;
 }
 
@@ -25,6 +25,8 @@ header div.ml-hero div p{
 
 header div.ml-hero blockquote {
 	color: #000;
+	font-size: 1em;
+	text-shadow: 1px 1px 3px #333;
 }
 #ml-middle-logo {
 	position: absolute;
